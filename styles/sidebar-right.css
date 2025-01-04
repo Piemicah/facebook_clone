@@ -1,0 +1,182 @@
+.sidebar-right {
+  width: 22%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-right: 10px;
+  overflow-y: scroll;
+}
+
+.sponsored {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.advert {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.advert-img-container {
+  width: 120px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.advert img {
+  width: 100%;
+  height: auto;
+}
+
+.advert-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.advert-name {
+  font-size: 16px;
+}
+.advert-site {
+  font-size: 12px;
+}
+
+.friend-request {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.request {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.request-img-container {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.request-img-container img {
+  width: 50px;
+  height: auto;
+}
+
+.request-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.request-detail img {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+.request-detail p {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.request-name {
+  font-weight: bold;
+}
+.mutual-friends {
+  font-size: 12px;
+  color: gray;
+}
+
+.request-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.confirm-btn,
+.delete-btn {
+  padding: 8px 0;
+  width: 110px;
+  background-color: #0866ff;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #c2c2c2;
+  color: #000;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.search-dot {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.search-dot img {
+  width: 18px;
+  height: auto;
+}
+
+.contact,
+.birthday {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding: 6px 0 6px 6px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.contact:hover,
+.birthday:hover {
+  background-color: rgb(230, 229, 229);
+}
+
+.contact-img-container {
+  position: relative;
+}
+
+.contact-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.live {
+  position: absolute;
+  background-color: green;
+  width: 10px;
+  height: 10px;
+  border: 2px solid white;
+  bottom: 8px;
+  right: -4px;
+  border-radius: 50%;
+}
+
+.birthdays {
+  display: flex;
+  flex-direction: column;
+}
+
+.birth-name {
+  font-weight: bold;
+}

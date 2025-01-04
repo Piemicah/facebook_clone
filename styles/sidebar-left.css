@@ -1,0 +1,31 @@
+.sidebar-left {
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+img {
+  width: 36px;
+  height: 36px;
+}
+
+.sidebar-img-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0 8px 10px;
+
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.sidebar-img-container:hover {
+  background-color: rgb(230, 229, 229);
+}
+
+#user {
+  border-radius: 50%;
+}
